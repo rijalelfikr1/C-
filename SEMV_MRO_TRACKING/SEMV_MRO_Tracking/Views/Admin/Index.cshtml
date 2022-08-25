@@ -1,0 +1,470 @@
+﻿@model ViewModel
+@{
+    ViewData["Title"] = "Admin";
+}
+
+<div class="content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12 mt-3">
+                <div class="card card-success">
+                    <div class="card-header bg-success">
+                        <h3 class="card-title"><i class="fa fa-table"></i> Master Data</h3>
+                        <div class="card-tools">
+                            <ul class="nav">
+                                <li class="nav-item mr-1">
+                                    <button class="btn btn-danger" name="btn_download_data" id="btn_download_data">
+                                        <i class="fa fa-download"></i> Download Data
+                                    </button>
+                                </li>
+                                <li class="nav-item mr-1">
+                                    <a class="btn btn-info" data-toggle="modal" data-target="#ImportDataModal">
+                                        <i class="fa fa-upload"></i> Import
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <table id="materialTable" class="table table-sm table-bordered table-striped" style="font-size:8pt;width:100%">
+                            <thead>
+                                <tr class="bg-success">
+                                    <th style="display:none;">Id</th>
+                                    <th class="align-middle text-center">Part Number</th>
+                                    <th class="align-middle text-center">Barcode</th>
+                                    <th class="align-middle text-center">Unit</th>
+                                    <th class="align-middle text-center">Material Name</th>
+                                    <th class="align-middle text-center">Material Desc</th>
+                                    <th class="align-middle text-center">Stock</th>
+                                    <th class="align-middle text-center">Safety Stock</th>
+                                    <th class="align-middle text-center">Max Stock</th>
+                                    <th class="align-middle text-center">Lead Time</th>
+                                    <th class="align-middle text-center">Price</th>
+                                    <th class="align-middle text-center">Total Value</th>
+                                    <th class="align-middle text-center">Supplier Name</th>
+                                    <th style="display:none;">Supplier Email</th>
+                                    <th style="display:none;">Total Purchase</th>
+                                    <th class="align-middle text-center" style="width: 10%">Action</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @{ if (Model.MaterialDetails != null)
+                                    {
+                                        foreach (var item in Model.MaterialDetails)
+                                        {
+                                                                <tr>
+                                                                    <td style="display:none;">@Html.DisplayFor(model => item.Id)</td>
+                                                                    <td class="align-middle text-center">@Html.DisplayFor(model => item.Part_Number)</td>
+                                                                    <td class="align-middle text-center">@Html.DisplayFor(model => item.Barcode)</td>
+                                                                    <td class="align-middle text-center">@Html.DisplayFor(model => item.Unit)</td>
+                                                                    <td class="align-middle text-center">@Html.DisplayFor(model => item.Material_Name)</td>
+                                                                    <td class="align-middle text-center">@Html.DisplayFor(model => item.Material_Desc)</td>
+                                                                    <td class="align-middle text-center">@Html.DisplayFor(model => item.Stock)</td>
+                                                                    <td class="align-middle text-center">@Html.DisplayFor(model => item.Safety_Stock)</td>
+                                                                    <td class="align-middle text-center">@Html.DisplayFor(model => item.Max_Stock)</td>
+                                                                    <td class="align-middle text-center">@Html.DisplayFor(model => item.Leadtime)</td>
+                                                                    <td class="align-middle text-center">@Html.DisplayFor(model => item.Price)</td>
+                                                                    <td class="align-middle text-center">@Html.DisplayFor(model => item.TotalValue)</td>
+                                                                    <td class="align-middle text-center">@Html.DisplayFor(model => item.Supplier_Name)</td>
+                                                                    <td style="display:none;" class="align-middle text-center">@Html.DisplayFor(model => item.Supplier_Email)</td>
+                                                                    <td style="display:none;" class="align-middle text-center">@Html.DisplayFor(model => item.Total_Purchase)</td>
+                                                                    <td class="align-middle text-center">
+                                                                        <button class="btn btn-warning btn-xs" name="btn_edit"><i class="fa fa-edit"></i></button>
+                                                                        <button class="btn btn-danger btn-xs" onclick="gethistorydata('@item.Part_Number')"><i class="fa fa-history"></i></button>
+                                                                    </td>
+                                                                </tr>
+                                        }
+                                    }
+                                    else
+                                    {
+                                        <tr>
+                                            <td colspan="9" class="align-middle">No Data to Display</td>
+                                        </tr>
+                                    }
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="ImportDataModal" tabindex="-1" role="dialog" aria-labelledby="memberModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header box-solid bg-success">
+                <h4 class="modal-title" id="memberModalLabel">Import</h4>
+                <button type="button" class="close" data-dismiss="modal">
+                    <span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+                </button>
+            </div>
+            <form class="form-horizontal" enctype="multipart/form-data" asp-action="ImportDataMaterial" method="post">
+                <div class="modal-body">
+                    <div class="form-group row">
+                        <a href="assets/Template/mst_material.csv" class="btn btn-danger">
+                            <i class="fa fa-download"></i> Download Template
+                        </a>
+                    </div>
+                    <div class="form-group row">
+                        <label for="name" class="col-sm-2 control-label">Select Import File:</label>
+                        <div class="col-sm-10">
+                            <input type="file" class="form-control" name="importFile" id="importFile">
+                        </div>
+                    </div>
+                    <div class="form-check row">
+                        <label for="option" class="col-sm-2 control-label">Truncate</label>
+                        <input type="checkbox" class="form-check-input" id="option" name="option" value="truncate">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" name="submit" class="btn btn-success"><i class="fa fa-pencil"></i> Import</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Scan In -->
+<div class="modal fade" id="scaninmodal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header bg-success">
+                <h5 class="modal-title">Scan In</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col">
+                        <div class="form-group">
+                            <label>Part Number</label>
+                            <input type="text" id="part_number" name="part_number" class="form-control form-control-sm" />
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-group">
+                            <label>Barcode</label>
+                            <input type="text" id="bar_code" name="bar_code" class="form-control form-control-sm" />
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-group">
+                            <label>Unit</label>
+                            <input type="text" id="unit" name="unit" class="form-control form-control-sm" />
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="form-group">
+                            <label>Material Name</label>
+                            <input type="text" id="material_name" name="material_name" class="form-control form-control-sm" />
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="form-group">
+                            <label>Material Desc</label>
+                            <textarea id="material_desc" name="material_desc" class="form-control form-control-sm"></textarea>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="form-group">
+                            <label>Stock</label>
+                            <input type="number" id="stock" name="stock" class="form-control form-control-sm" />
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-group">
+                            <label>Safety Stock</label>
+                            <input type="number" id="safety_stock" name="safety_stock" class="form-control form-control-sm" />
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-group">
+                            <label>Max Stock</label>
+                            <input type="number" id="max_stock" name="max_stock" class="form-control form-control-sm" />
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="form-group">
+                            <label>Leadtime</label>
+                            <input type="number" id="leadtime" name="leadtime" class="form-control form-control-sm" />
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-group">
+                            <label>Price</label>
+                            <input type="number" id="price" name="price" class="form-control form-control-sm" />
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-group">
+                            <label>Total Purchase</label>
+                            <input type="number" id="total_purchase" name="total_purchase" class="form-control form-control-sm" />
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="form-group">
+                            <label>Supplier Name</label>
+                            <input type="text" id="supplier_name" name="supplier_name" class="form-control form-control-sm" />
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-group">
+                            <label>Supplier Email</label>
+                            <input type="email" id="supplier_email" name="supplier_email" class="form-control form-control-sm" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" name="btn_submit_update" id="btn_submit_update" class="btn btn-block btn-success"><i class="fa fa-check"></i> Submit</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="modal fade" id="HistoryDetailModal" tabindex="-1" role="dialog" aria-labelledby="memberModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header box-solid bg-success">
+                <h4 class="modal-title" id="memberModalLabel">History Detail</h4>
+                <button type="button" class="close" data-dismiss="modal">
+                    <span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+                </button>
+            </div>
+                <div class="modal-body table-responsive">
+                    <div id="modal-detail"></div>
+                </div>
+        </div>
+    </div>
+</div>
+
+
+@section Scripts {
+
+    <script>
+
+        $(document).ready(function () {
+            $("#materialTable").DataTable();
+        });
+
+        function gethistorydata(partnumber) {
+            $.ajax({
+                type: "GET",
+                url: "@Url.Action("Getmaterialhistory")",
+                data: {
+                    Part_Number: partnumber,
+                },
+                success: function (data) {
+                    $("#HistoryDetailModal").modal("toggle");
+                    $("#modal-detail").html(data);
+                }
+            });
+        }
+
+        $("#btn_download_data").click(function () {
+            window.location.href = 'Admin/Export_mat_data';
+        });
+        var id;
+        var Part_Number;
+        var Barcode;
+        var Unit;
+        var Material_Name;
+        var Material_Desc;
+        var Stock;
+        var Safety_Stock;
+        var Max_Stock;
+        var Leadtime;
+        var Price;
+        var Supplier_Name;
+        var Supplier_Email;
+        var Total_Purchase;
+        var request_by = '@ViewBag.Sesa_id';
+        $("button[name='btn_edit']").click(function () {
+            $row = $(this).closest("tr");
+            id = $row.find("td:nth-child(1)").text();
+            Part_Number = $row.find("td:nth-child(2)").text();
+            Barcode = $row.find("td:nth-child(3)").text();
+            Unit = $row.find("td:nth-child(4)").text();
+            Material_Name = $row.find("td:nth-child(5)").text();
+            Material_Desc = $row.find("td:nth-child(6)").text();
+            Stock = $row.find("td:nth-child(7)").text();
+            Safety_Stock = $row.find("td:nth-child(8)").text();
+            Max_Stock = $row.find("td:nth-child(9)").text();
+            Leadtime = $row.find("td:nth-child(10)").text();
+            Price = $row.find("td:nth-child(11)").text();
+            Supplier_Name = $row.find("td:nth-child(12)").text();
+            Supplier_Email = $row.find("td:nth-child(13)").text();
+            Total_Purchase = $row.find("td:nth-child(14)").text();
+            $("#scaninmodal").modal("toggle");
+            $("#part_number").val(Part_Number);
+            $("#bar_code").val(Barcode);
+            $("#unit").val(Unit);
+            $("#material_name").val(Material_Name);
+            $("#material_desc").text(Material_Desc);
+            $("#stock").val(Stock);
+            $("#safety_stock").val(Safety_Stock);
+            $("#max_stock").val(Max_Stock);
+            $("#leadtime").val(Leadtime);
+            $("#price").val(Price);
+            $("#supplier_name").val(Supplier_Name);
+            $("#supplier_email").val(Supplier_Email);
+            $("#total_purchase").val(Total_Purchase);
+        });
+        $("button[name='btn_submit_update']").click(function () {
+            var Edit_typ = "EDIT_DATA";
+            var Remark = "";
+            var Change = false;
+            console.log($("#part_number").val());
+            console.log($("#bar_code").val());
+            console.log($("#unit").val());
+            console.log($("#material_name").val());
+            console.log($("#material_desc").val());
+            console.log($("#stock").val());
+            console.log($("#safety_stock").val());
+            console.log($("#max_stock").val());
+            console.log($("#leadtime").val());
+            console.log($("#price").val());
+            console.log($("#supplier_name").val());
+            console.log($("#supplier_email").val());
+            console.log($("#total_purchase").val());
+            if (Part_Number != $("#part_number").val()) {
+                Edit_typ += "_PARTNUMBER"
+                Change = true;
+                Remark += Part_Number + " -> " + $("#part_number").val() + "|";
+                Part_Number = $("#part_number").val();
+            }
+            if (Barcode != $("#bar_code").val()) {
+                Edit_typ += "_BARCODE"
+                Change = true;
+                Remark += Barcode + " -> " + $("#bar_code").val() + "|";
+                Barcode = $("#bar_code").val();
+            }
+            if (Unit != $("#unit").val()) {
+                Edit_typ += "_UNIT"
+                Change = true;
+                Remark += Unit + " -> " + $("#unit").val() + "|";
+                Unit = $("#unit").val();
+            }
+            if (Material_Name != $("#material_name").val()) {
+                Edit_typ += "_MATERIALNAME"
+                Change = true;
+                Remark += Material_Name + " -> " + $("#material_name").val() + "|";
+                Material_Name = $("#material_name").val();
+            }
+            if (Material_Desc != $("#material_desc").val()) {
+                Edit_typ += "_MATERIALDESC"
+                Change = true;
+                Remark += Material_Desc + " -> " + $("#material_desc").val() + "|";
+                Material_Desc = $("#material_desc").val();
+            }
+            if (Stock != $("#stock").val()) {
+                Edit_typ += "_STOCK"
+                Change = true;
+                Remark += Stock + " -> " + $("#stock").val() + "|";
+                Stock = $("#stock").val();
+            }
+            if (Safety_Stock != $("#safety_stock").val()) {
+                Edit_typ += "_SAFETYSTOCK"
+                Change = true;
+                Remark += Safety_Stock + " -> " + $("#safety_stock").val() + "|";
+                Safety_Stock = $("#safety_stock").val();
+            }
+            if (Max_Stock != $("#max_stock").val()) {
+                Edit_typ += "_MAXSTOCK"
+                Change = true;
+                Remark += Max_Stock + " -> " + $("#max_stock").val() + "|";
+                Max_Stock = $("#max_stock").val();
+            }
+            if (Leadtime != $("#leadtime").val()) {
+                Edit_typ += "_LEADTIME"
+                Change = true;
+                Remark += Leadtime + " -> " + $("#leadtime").val() + "|";
+                Leadtime = $("#leadtime").val();
+            }
+            if (Price != $("#price").val()) {
+                Edit_typ += "_PRICE"
+                Change = true;
+                Remark += Price + " -> " + $("#price").val() + "|";
+                Price = $("#price").val();
+            }
+            if (Supplier_Name != $("#supplier_name").val()) {
+                Edit_typ += "_SUPPLIERNAME"
+                Change = true;
+                Remark += Supplier_Name + " -> " + $("#supplier_name").val() + "|";
+                Supplier_Name = $("#supplier_name").val();
+            }
+            if (Supplier_Email != $("#supplier_email").val()) {
+                Edit_typ += "_SUPPLIEREMAIL"
+                Change = true;
+                Remark += Supplier_Email + " -> " + $("#supplier_email").val() + "|";
+                Supplier_Email = $("#supplier_email").val();
+            }
+            if (Total_Purchase != $("#total_purchase").val()) {
+                Edit_typ += "_TOTALPURCHASE"
+                Change = true;
+                Remark += Total_Purchase + " -> " + $("#total_purchase").val() + "|";
+                Total_Purchase = $("#total_purchase").val();
+            }
+            if (Change == true) {
+                Swal.fire({
+                    title: 'Edit Material',
+                    text: "Are you sure to Edit the Material ?",
+                    icon: 'warning',
+                    showCancelButton: true,
+                    confirmButtonColor: '#28a745',
+                    cancelButtonColor: '#dc3545',
+                    citemnfirmButtonText: 'Yes!',
+                    cancelButtonText: 'No!',
+                    showLoaderOnConfirm: true,
+                    preConfirm: function () {
+                        return new Promise(function (resolve, reject) {
+                             $.ajax({
+                                type: "POST",
+                                url: "@Url.Action("Editmstmaterial")",
+                                data: {
+                                    id: id,
+                                    Part_Number: Part_Number,
+                                    Barcode: Barcode,
+                                    Unit: Unit,
+                                    Material_Name: Material_Name,
+                                    Material_Desc: Material_Desc,
+                                    Stock: Stock,
+                                    Safety_Stock: Safety_Stock,
+                                    Max_Stock: Max_Stock,
+                                    Leadtime: Leadtime,
+                                    Price: Price,
+                                    Supplier_Name: Supplier_Name,
+                                    Supplier_Email: Supplier_Email,
+                                    Total_Purchase: Total_Purchase,
+                                    Edit_typ: Edit_typ,
+                                    Remark: Remark,
+                                    sesa_id: request_by
+                                },
+                                success: function (msg) {
+                                    location.reload()
+                                }
+                            });
+                        })
+                    }
+                })
+            }
+        });
+    </script>
+
+}

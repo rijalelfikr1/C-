@@ -1,0 +1,176 @@
+﻿@using SEMV_MRO_Tracking.Function
+@using Microsoft.AspNetCore.Http;
+@inject IHttpContextAccessor HttpContextAccessor
+@{ if (HttpContextAccessor.HttpContext.Session == null)
+    {
+        Url.Action("SignOut", "Login");
+    } 
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - MRO Tracking</title>
+    <!--FontAwesome-->
+    <link href="~/lib/adminlte/plugins/fontawesome-free/css/all.min.css" rel="stylesheet" />
+    <link href="~/lib/adminlte/plugins/fontawesome-free/css/fontawesome.min.css" rel="stylesheet" />
+    <link href="~/lib/adminlte/plugins/fontawesome-free/css/solid.min.css" rel="stylesheet" />
+    <!--Bootsrapt 4-->
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/lib/DataTables-1.10.22/css/dataTables.bootstrap4.min.css" />
+    @*<link rel="stylesheet" href="~/lib/adminlte/plugins/datatables-bs4/css/dataTables.bootstrap4.min.css" />*@
+
+    <!-- Admin LTE-->
+    <link href="~/lib/adminlte/dist/css/adminlte.css" rel="stylesheet" />
+    @*<link rel="stylesheet" href="~/css/site.css" />*@
+    <link href="~/lib/adminlte/plugins/sweetalert2/sweetalert2.css" rel="stylesheet" />
+    <link href="~/lib/adminlte/plugins/select2/css/select2.min.css" rel="stylesheet" />
+    <link href="~/lib/adminlte/plugins/overlayScrollbars/css/OverlayScrollbars.min.css" rel="stylesheet" />
+</head>
+<body class="sidebar-mini layout-fixed layout-navbar-fixed" style="padding: 0 !important; margin: 0 !important">
+    <div class="wrapper">
+        <!-- Navbar-->
+        <nav class="main-header navbar navbar-expand border-bottom navbar-dark bg-success">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" data-widget="pushmenu" href="#">
+                        <i class="fa fa-bars" aria-hidden="true"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <!-- End Navbar-->
+        <!-- Sidebar -->
+        <aside class="main-sidebar sidebar-dark-success elevation-5">
+            <!-- Brand Logo -->
+            <a href="@Url.Action("Simulation", "Admin")" class="brand-link bg-success">
+                <img src="~/assets/logos.png" alt="Schneider Logo" class="brand-image img-circle elevation-3"
+                     style="opacity: .8">
+                <span class="brand-text font-weight-light">MRO Tracking</span>
+            </a>
+            <div class="sidebar">
+                <div class="user-panel mt-3 pb-3 mb-3 d-flex">
+                    <div class="image">
+                        <img src="~/assets/header.png" class="img-circle elevation-2 bg-white" alt="User Image">
+                    </div>
+                    <div class="info">
+                        <a href="#"
+                           class="d-block">@HttpContextAccessor.HttpContext.Session.GetString("name") | @HttpContextAccessor.HttpContext.Session.GetString("level")</a>
+                    </div>
+                </div>
+
+                <nav class="mt-3">
+                    <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu">
+                        @if (HttpContextAccessor.HttpContext.Session.GetString("level") == "user")
+                        {
+                            <li class="nav-item ">
+                                <a href="@Url.Action("Index", "User")" class="nav-link @Html.IsActive("User", "Index")">
+                                    <i class="nav-icon fas fa-table"></i>
+                                    <p>
+                                        Transaction
+                                    </p>
+                                </a>
+                            </li>
+                            <li class="nav-item ">
+                                <a href="@Url.Action("MasterData", "User")" class="nav-link @Html.IsActive("User", "MasterData")">
+                                    <i class="nav-icon fas fa-table"></i>
+                                    <p>
+                                        Master Data
+                                    </p>
+                                </a>
+                            </li>
+                            <li class="nav-item ">
+                                <a href="@Url.Action("SignOut", "Login")" class="nav-link">
+                                    <i class="nav-icon fas fa-sign-out-alt"></i>
+                                    <p>
+                                        Log Out
+                                    </p>
+                                </a>
+                            </li>
+                        }
+
+                        @if (HttpContextAccessor.HttpContext.Session.GetString("level") == "admin")
+                        {
+                            <li class="nav-item ">
+                                <a href="@Url.Action("Index", "Admin")" class="nav-link @Html.IsActive("Admin", "Index")">
+                                    <i class="nav-icon fas fa-table"></i>
+                                    <p>
+                                        Master Data
+                                    </p>
+                                </a>
+                            </li>
+
+                            <li class="nav-item ">
+                                <a href="@Url.Action("MaterialStock", "Admin")" class="nav-link @Html.IsActive("Admin", "MaterialStock")">
+                                    <i class="nav-icon fas fa-table"></i>
+                                    <p>
+                                        Material Stock
+                                    </p>
+                                </a>
+                            </li>
+
+                            <li class="nav-item ">
+                                <a href="@Url.Action("ScanIn", "Admin")" class="nav-link @Html.IsActive("Admin", "ScanIn")">
+                                    <i class="nav-icon fas fa-table"></i>
+                                    <p>
+                                        Transaction
+                                    </p>
+                                </a>
+                            </li>
+
+                            <li class="nav-item ">
+                                <a href="@Url.Action("TransactionHistory", "Admin")" class="nav-link @Html.IsActive("Admin", "TransactionHistory")">
+                                    <i class="nav-icon fas fa-table"></i>
+                                    <p>
+                                        Transaction History
+                                    </p>
+                                </a>
+                            </li>
+
+                            <li class="nav-item ">
+                                <a href="@Url.Action("SignOut", "Login")" class="nav-link">
+                                    <i class="nav-icon fas fa-sign-out-alt"></i>
+                                    <p>
+                                        Log Out
+                                    </p>
+                                </a>
+                            </li>
+                        }
+
+                    </ul>
+                </nav>
+            </div>
+        </aside>
+        <div class="content-wrapper mb-5">
+            @RenderBody()
+        </div>
+        <footer class="main-footer">
+            <strong>Copyright &copy; 2021 <a class="text-success" href="http://schneider-electric.com">Schneider Electric</a>.</strong>
+            All rights reserved.
+            <div class="float-right d-none d-sm-inline-block">
+                <b>Version</b> 1.0.0
+            </div>
+        </footer>
+
+    </div>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/DataTables-1.10.22/js/jquery.dataTables.min.js"></script>
+    <script src="~/lib/DataTables-1.10.22/js/dataTables.bootstrap4.min.js"></script>
+    @*<script src="~/lib/adminlte/plugins/datatables-bs4/js/dataTables.bootstrap4.min.js"></script>*@
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/lib/adminlte/dist/js/adminlte.min.js"></script>
+    <script src="~/lib/adminlte/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="~/lib/adminlte/plugins/select2/js/select2.min.js"></script>
+    <script src="~/lib/adminlte/plugins/sweetalert2/sweetalert2.min.js"></script>
+    <script>
+        $('body').on("click", function (e) {
+            $(this).removeClass('sidebar-open');
+            //console.log("yes");
+        });
+    </script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

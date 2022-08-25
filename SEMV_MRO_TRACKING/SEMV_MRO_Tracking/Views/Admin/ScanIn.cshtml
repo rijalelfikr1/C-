@@ -1,0 +1,185 @@
+﻿@model ViewModel
+
+@{ ViewData["Title"] = "User"; }
+
+<div class="content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12 mt-3">
+                <div class="card card-success">
+                    <div class="card-header bg-success">
+                        <h3 class="card-title"><i class="fa fa-table"></i> Material Transaction</h3>
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-3">
+                                <div class="form-group">
+                                    <label>Part Number</label>
+                                    <input type="text" id="part_number" name="part_number" class="form-control form-control-sm" />
+                                </div>
+
+                            </div>
+                            <div class="col-6">
+                                <label>Material Name</label>
+                                <input type="text" id="material_name" name="material_name" class="form-control form-control-sm" disabled />
+                            </div>                          
+                            <div class="col-3">
+                                <label>Current Stock</label>
+                                <input type="number" id="current_stock" name="current_stock" class="form-control form-control-sm" disabled />
+                            </div>
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col-3">
+                                <label>Insert Quantity then Enter</label>
+                                <input type="number" oninput="validity.valid||(value='');" min="0" id="quantity" name="quantity" class="form-control form-control-sm" placeholder="Please Input Material Quantity" disabled/>
+                            </div>
+                            <div class="col-3">
+                                <label>UoM</label>
+                                <input type="text" id="uom" name="uom" class="form-control form-control-sm" disabled />
+                            </div>
+                            <div class="col-3">
+                                <label>Supplier Name</label>
+                                <input type="text" id="supplier_name" name="supplier_name" class="form-control form-control-sm" disabled />
+                            </div>
+                            <div class="col-3">
+                                <label>Price</label>
+                                <input type="text" id="price" name="price" class="form-control form-control-sm" disabled />
+                            </div>
+                        </div>
+                        <div class="row mt-3 float-right">
+                            <button class="btn btn-warning mr-3" id="btn_reset"><i class="fa fa-sync"></i> Reset</button>
+                            <button class="btn btn-success" id="btn_submit" disabled><i class="fa fa-arrow-right"></i> Submit</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+@section Scripts {
+
+    <script>
+
+        $('#part_number').on("keypress", function (e) {
+            if (e.keyCode == 13) {
+
+                var part_number = $("#part_number").val();                
+               
+                $.ajax({
+                    type: "POST",
+                    url: "@Url.Action("GetMaterialDetail")",
+                    data: {
+                        part_number:part_number
+                    },
+                    dataType: "json",
+                    success: function (msg) {                       
+
+                        if (msg.material_Name == null) {
+
+                            Swal.fire({
+                                icon: 'error',
+                                title: 'Error',
+                                text: 'Part Number did not Found in Database !'
+                            });
+
+                        } else {
+
+                            $("#part_number").prop('disabled', true);
+                            $("#quantity").prop('disabled', false);
+                            $("#material_name").val(msg.material_Name);
+                            $("#current_stock").val(msg.stock);
+                            $("#uom").val(msg.unit);
+                            $("#supplier_name").val(msg.supplier_Name);
+                            $("#price").val(msg.price);
+
+                        }                      
+                    }
+                })
+
+            }
+        });
+
+        $('#quantity').on("keypress", function (e) {
+            if (e.keyCode == 13) {
+
+                $("#quantity").prop('disabled', true);
+                $("#btn_submit").prop('disabled', false);
+
+            }
+        });
+
+        $("#btn_reset").click(function () {
+
+            $("#part_number").val('');
+            $("#part_number").prop('disabled', false);
+            $("#quantity").val('');
+            $("#quantity").prop('disabled', true);
+            $("#btn_submit").prop('disabled', true);
+            $("#material_name").val('');
+            $("#current_stock").val('');
+            $("#uom").val('');
+            $("#supplier_name").val('');
+            $("#price").val('');
+
+        })
+
+        $("#btn_submit").click(function () {
+            var part_number = $("#part_number").val();
+            var quantity = $("#quantity").val();
+            var current_quantity = $("#current_stock").val();
+            var request_by = '@ViewBag.Sesa_id';
+            if (part_number == '' && quantity == '') {
+
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Error',
+                    text: 'Please Fill in Part Number and Quantity First !'
+                })
+
+            }
+            else if (parseInt(quantity) > parseInt(current_quantity)) {
+
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Error',
+                    text: 'Current quantity is not enough! Current Quantity: ' + current_quantity
+                })
+            }
+            else {
+
+                Swal.fire({
+                    title: 'Material Picked',
+                    text: "Are you sure to Pick the Material ?",
+                    icon: 'warning',
+                    showCancelButton: true,
+                    confirmButtonColor: '#28a745',
+                    cancelButtonColor: '#dc3545',
+                    citemnfirmButtonText: 'Yes!',
+                    cancelButtonText: 'No!',
+                    showLoaderOnConfirm: true,
+                    preConfirm: function () {
+                        return new Promise(function (resolve, reject) {
+                            $.ajax({
+                                type: "POST",
+                                url: "@Url.Action("SubmitMaterial")",
+                                data: {
+                                    part_number : part_number,
+                                    quantity: quantity,
+                                    request_by: request_by
+                                },
+                                dataType: "json",
+                                success: function (msg) {
+                                    location.reload(true);
+                                }
+                            })
+                        })
+                    }
+                })
+            }
+        })
+
+    </script>
+
+}

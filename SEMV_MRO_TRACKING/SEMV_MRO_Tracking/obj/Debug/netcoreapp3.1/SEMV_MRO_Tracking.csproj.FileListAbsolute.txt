@@ -1,0 +1,151 @@
+D:\ASPCORE PROJECT\SEMV_MRO_Tracking\SEMV_MRO_Tracking\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\ASPCORE PROJECT\SEMV_MRO_Tracking\SEMV_MRO_Tracking\bin\Debug\netcoreapp3.1\appsettings.json
+D:\ASPCORE PROJECT\SEMV_MRO_Tracking\SEMV_MRO_Tracking\bin\Debug\netcoreapp3.1\SEMV_MRO_Tracking.exe
+D:\ASPCORE PROJECT\SEMV_MRO_Tracking\SEMV_MRO_Tracking\bin\Debug\netcoreapp3.1\SEMV_MRO_Tracking.deps.json
+D:\ASPCORE PROJECT\SEMV_MRO_Tracking\SEMV_MRO_Tracking\bin\Debug\netcoreapp3.1\SEMV_MRO_Tracking.runtimeconfig.json
+D:\ASPCORE PROJECT\SEMV_MRO_Tracking\SEMV_MRO_Tracking\bin\Debug\netcoreapp3.1\SEMV_MRO_Tracking.runtimeconfig.dev.json
+D:\ASPCORE PROJECT\SEMV_MRO_Tracking\SEMV_MRO_Tracking\bin\Debug\netcoreapp3.1\SEMV_MRO_Tracking.dll
+D:\ASPCORE PROJECT\SEMV_MRO_Tracking\SEMV_MRO_Tracking\bin\Debug\netcoreapp3.1\SEMV_MRO_Tracking.pdb
+D:\ASPCORE PROJECT\SEMV_MRO_Tracking\SEMV_MRO_Tracking\bin\Debug\netcoreapp3.1\SEMV_MRO_Tracking.Views.dll
+D:\ASPCORE PROJECT\SEMV_MRO_Tracking\SEMV_MRO_Tracking\bin\Debug\netcoreapp3.1\SEMV_MRO_Tracking.Views.pdb
+D:\ASPCORE PROJECT\SEMV_MRO_Tracking\SEMV_MRO_Tracking\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+D:\ASPCORE PROJECT\SEMV_MRO_Tracking\SEMV_MRO_Tracking\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+D:\ASPCORE PROJECT\SEMV_MRO_Tracking\SEMV_MRO_Tracking\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+D:\ASPCORE PROJECT\SEMV_MRO_Tracking\SEMV_MRO_Tracking\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+D:\ASPCORE PROJECT\SEMV_MRO_Tracking\SEMV_MRO_Tracking\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\ASPCORE PROJECT\SEMV_MRO_Tracking\SEMV_MRO_Tracking\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\ASPCORE PROJECT\SEMV_MRO_Tracking\SEMV_MRO_Tracking\obj\Debug\netcoreapp3.1\SEMV_MRO_Tracking.csprojAssemblyReference.cache
+D:\ASPCORE PROJECT\SEMV_MRO_Tracking\SEMV_MRO_Tracking\obj\Debug\netcoreapp3.1\SEMV_MRO_Tracking.AssemblyInfoInputs.cache
+D:\ASPCORE PROJECT\SEMV_MRO_Tracking\SEMV_MRO_Tracking\obj\Debug\netcoreapp3.1\SEMV_MRO_Tracking.AssemblyInfo.cs
+D:\ASPCORE PROJECT\SEMV_MRO_Tracking\SEMV_MRO_Tracking\obj\Debug\netcoreapp3.1\SEMV_MRO_Tracking.csproj.CoreCompileInputs.cache
+D:\ASPCORE PROJECT\SEMV_MRO_Tracking\SEMV_MRO_Tracking\obj\Debug\netcoreapp3.1\SEMV_MRO_Tracking.MvcApplicationPartsAssemblyInfo.cache
+D:\ASPCORE PROJECT\SEMV_MRO_Tracking\SEMV_MRO_Tracking\obj\Debug\netcoreapp3.1\SEMV_MRO_Tracking.RazorAssemblyInfo.cache
+D:\ASPCORE PROJECT\SEMV_MRO_Tracking\SEMV_MRO_Tracking\obj\Debug\netcoreapp3.1\SEMV_MRO_Tracking.RazorAssemblyInfo.cs
+D:\ASPCORE PROJECT\SEMV_MRO_Tracking\SEMV_MRO_Tracking\obj\Debug\netcoreapp3.1\staticwebassets\SEMV_MRO_Tracking.StaticWebAssets.Manifest.cache
+D:\ASPCORE PROJECT\SEMV_MRO_Tracking\SEMV_MRO_Tracking\obj\Debug\netcoreapp3.1\staticwebassets\SEMV_MRO_Tracking.StaticWebAssets.xml
+D:\ASPCORE PROJECT\SEMV_MRO_Tracking\SEMV_MRO_Tracking\obj\Debug\netcoreapp3.1\scopedcss\bundle\SEMV_MRO_Tracking.styles.css
+D:\ASPCORE PROJECT\SEMV_MRO_Tracking\SEMV_MRO_Tracking\obj\Debug\netcoreapp3.1\SEMV_MRO_Tracking.TagHelpers.input.cache
+D:\ASPCORE PROJECT\SEMV_MRO_Tracking\SEMV_MRO_Tracking\obj\Debug\netcoreapp3.1\SEMV_MRO_Tracking.TagHelpers.output.cache
+D:\ASPCORE PROJECT\SEMV_MRO_Tracking\SEMV_MRO_Tracking\obj\Debug\netcoreapp3.1\SEMV_MRO_Tracking.RazorCoreGenerate.cache
+D:\ASPCORE PROJECT\SEMV_MRO_Tracking\SEMV_MRO_Tracking\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+D:\ASPCORE PROJECT\SEMV_MRO_Tracking\SEMV_MRO_Tracking\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+D:\ASPCORE PROJECT\SEMV_MRO_Tracking\SEMV_MRO_Tracking\obj\Debug\netcoreapp3.1\Razor\Views\Login\Index.cshtml.g.cs
+D:\ASPCORE PROJECT\SEMV_MRO_Tracking\SEMV_MRO_Tracking\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+D:\ASPCORE PROJECT\SEMV_MRO_Tracking\SEMV_MRO_Tracking\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\ASPCORE PROJECT\SEMV_MRO_Tracking\SEMV_MRO_Tracking\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\ASPCORE PROJECT\SEMV_MRO_Tracking\SEMV_MRO_Tracking\obj\Debug\netcoreapp3.1\Razor\Views\User\Index.cshtml.g.cs
+D:\ASPCORE PROJECT\SEMV_MRO_Tracking\SEMV_MRO_Tracking\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+D:\ASPCORE PROJECT\SEMV_MRO_Tracking\SEMV_MRO_Tracking\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+D:\ASPCORE PROJECT\SEMV_MRO_Tracking\SEMV_MRO_Tracking\obj\Debug\netcoreapp3.1\SEMV_MRO_Tracking.RazorTargetAssemblyInfo.cache
+D:\ASPCORE PROJECT\SEMV_MRO_Tracking\SEMV_MRO_Tracking\obj\Debug\netcoreapp3.1\SEMV_MRO_Tracking.RazorTargetAssemblyInfo.cs
+D:\ASPCORE PROJECT\SEMV_MRO_Tracking\SEMV_MRO_Tracking\obj\Debug\netcoreapp3.1\SEMV_MRO_Tracking.Views.pdb
+D:\ASPCORE PROJECT\SEMV_MRO_Tracking\SEMV_MRO_Tracking\obj\Debug\netcoreapp3.1\SEMV_MRO_Tracking.csproj.CopyComplete
+D:\ASPCORE PROJECT\SEMV_MRO_Tracking\SEMV_MRO_Tracking\obj\Debug\netcoreapp3.1\SEMV_MRO_Tracking.dll
+D:\ASPCORE PROJECT\SEMV_MRO_Tracking\SEMV_MRO_Tracking\obj\Debug\netcoreapp3.1\SEMV_MRO_Tracking.pdb
+D:\ASPCORE PROJECT\SEMV_MRO_Tracking\SEMV_MRO_Tracking\obj\Debug\netcoreapp3.1\SEMV_MRO_Tracking.genruntimeconfig.cache
+D:\ASPCORE PROJECT\SEMV_MRO_Tracking\SEMV_MRO_Tracking\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Index.cshtml.g.cs
+D:\ASPCORE PROJECT\SEMV_MRO_Tracking\SEMV_MRO_Tracking\obj\Debug\netcoreapp3.1\Razor\Views\Admin\TransactionHistory.cshtml.g.cs
+D:\ASPCORE PROJECT\SEMV_MRO_Tracking\SEMV_MRO_Tracking\obj\Debug\netcoreapp3.1\Razor\Views\Admin\MaterialStock.cshtml.g.cs
+C:\Github\SEMV_MRO_Tracking\SEMV_MRO_Tracking\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Github\SEMV_MRO_Tracking\SEMV_MRO_Tracking\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Github\SEMV_MRO_Tracking\SEMV_MRO_Tracking\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Github\SEMV_MRO_Tracking\SEMV_MRO_Tracking\bin\Debug\netcoreapp3.1\SEMV_MRO_Tracking.exe
+C:\Github\SEMV_MRO_Tracking\SEMV_MRO_Tracking\bin\Debug\netcoreapp3.1\SEMV_MRO_Tracking.deps.json
+C:\Github\SEMV_MRO_Tracking\SEMV_MRO_Tracking\bin\Debug\netcoreapp3.1\SEMV_MRO_Tracking.runtimeconfig.json
+C:\Github\SEMV_MRO_Tracking\SEMV_MRO_Tracking\bin\Debug\netcoreapp3.1\SEMV_MRO_Tracking.runtimeconfig.dev.json
+C:\Github\SEMV_MRO_Tracking\SEMV_MRO_Tracking\bin\Debug\netcoreapp3.1\SEMV_MRO_Tracking.dll
+C:\Github\SEMV_MRO_Tracking\SEMV_MRO_Tracking\bin\Debug\netcoreapp3.1\SEMV_MRO_Tracking.pdb
+C:\Github\SEMV_MRO_Tracking\SEMV_MRO_Tracking\bin\Debug\netcoreapp3.1\SEMV_MRO_Tracking.Views.dll
+C:\Github\SEMV_MRO_Tracking\SEMV_MRO_Tracking\bin\Debug\netcoreapp3.1\SEMV_MRO_Tracking.Views.pdb
+C:\Github\SEMV_MRO_Tracking\SEMV_MRO_Tracking\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Github\SEMV_MRO_Tracking\SEMV_MRO_Tracking\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Github\SEMV_MRO_Tracking\SEMV_MRO_Tracking\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Github\SEMV_MRO_Tracking\SEMV_MRO_Tracking\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Github\SEMV_MRO_Tracking\SEMV_MRO_Tracking\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Github\SEMV_MRO_Tracking\SEMV_MRO_Tracking\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Github\SEMV_MRO_Tracking\SEMV_MRO_Tracking\obj\Debug\netcoreapp3.1\SEMV_MRO_Tracking.csprojAssemblyReference.cache
+C:\Github\SEMV_MRO_Tracking\SEMV_MRO_Tracking\obj\Debug\netcoreapp3.1\SEMV_MRO_Tracking.AssemblyInfoInputs.cache
+C:\Github\SEMV_MRO_Tracking\SEMV_MRO_Tracking\obj\Debug\netcoreapp3.1\SEMV_MRO_Tracking.AssemblyInfo.cs
+C:\Github\SEMV_MRO_Tracking\SEMV_MRO_Tracking\obj\Debug\netcoreapp3.1\SEMV_MRO_Tracking.RazorAssemblyInfo.cache
+C:\Github\SEMV_MRO_Tracking\SEMV_MRO_Tracking\obj\Debug\netcoreapp3.1\SEMV_MRO_Tracking.RazorAssemblyInfo.cs
+C:\Github\SEMV_MRO_Tracking\SEMV_MRO_Tracking\obj\Debug\netcoreapp3.1\SEMV_MRO_Tracking.TagHelpers.input.cache
+C:\Github\SEMV_MRO_Tracking\SEMV_MRO_Tracking\obj\Debug\netcoreapp3.1\SEMV_MRO_Tracking.TagHelpers.output.cache
+C:\Github\SEMV_MRO_Tracking\SEMV_MRO_Tracking\obj\Debug\netcoreapp3.1\SEMV_MRO_Tracking.RazorCoreGenerate.cache
+C:\Github\SEMV_MRO_Tracking\SEMV_MRO_Tracking\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Index.cshtml.g.cs
+C:\Github\SEMV_MRO_Tracking\SEMV_MRO_Tracking\obj\Debug\netcoreapp3.1\Razor\Views\Admin\MaterialStock.cshtml.g.cs
+C:\Github\SEMV_MRO_Tracking\SEMV_MRO_Tracking\obj\Debug\netcoreapp3.1\Razor\Views\Admin\TransactionHistory.cshtml.g.cs
+C:\Github\SEMV_MRO_Tracking\SEMV_MRO_Tracking\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Github\SEMV_MRO_Tracking\SEMV_MRO_Tracking\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Github\SEMV_MRO_Tracking\SEMV_MRO_Tracking\obj\Debug\netcoreapp3.1\Razor\Views\Login\Index.cshtml.g.cs
+C:\Github\SEMV_MRO_Tracking\SEMV_MRO_Tracking\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Github\SEMV_MRO_Tracking\SEMV_MRO_Tracking\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Github\SEMV_MRO_Tracking\SEMV_MRO_Tracking\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Github\SEMV_MRO_Tracking\SEMV_MRO_Tracking\obj\Debug\netcoreapp3.1\Razor\Views\User\Index.cshtml.g.cs
+C:\Github\SEMV_MRO_Tracking\SEMV_MRO_Tracking\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Github\SEMV_MRO_Tracking\SEMV_MRO_Tracking\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Github\SEMV_MRO_Tracking\SEMV_MRO_Tracking\obj\Debug\netcoreapp3.1\SEMV_MRO_Tracking.RazorTargetAssemblyInfo.cache
+C:\Github\SEMV_MRO_Tracking\SEMV_MRO_Tracking\obj\Debug\netcoreapp3.1\SEMV_MRO_Tracking.RazorTargetAssemblyInfo.cs
+C:\Github\SEMV_MRO_Tracking\SEMV_MRO_Tracking\obj\Debug\netcoreapp3.1\SEMV_MRO_Tracking.Views.pdb
+C:\Github\SEMV_MRO_Tracking\SEMV_MRO_Tracking\obj\Debug\netcoreapp3.1\SEMV_MRO_Tracking.csproj.CopyComplete
+C:\Github\SEMV_MRO_Tracking\SEMV_MRO_Tracking\obj\Debug\netcoreapp3.1\staticwebassets\SEMV_MRO_Tracking.StaticWebAssets.Manifest.cache
+C:\Github\SEMV_MRO_Tracking\SEMV_MRO_Tracking\obj\Debug\netcoreapp3.1\staticwebassets\SEMV_MRO_Tracking.StaticWebAssets.xml
+C:\Github\SEMV_MRO_Tracking\SEMV_MRO_Tracking\obj\Debug\netcoreapp3.1\SEMV_MRO_Tracking.dll
+C:\Github\SEMV_MRO_Tracking\SEMV_MRO_Tracking\obj\Debug\netcoreapp3.1\SEMV_MRO_Tracking.pdb
+C:\Github\SEMV_MRO_Tracking\SEMV_MRO_Tracking\obj\Debug\netcoreapp3.1\SEMV_MRO_Tracking.genruntimeconfig.cache
+C:\Github\SEMV_MRO_Tracking\SEMV_MRO_Tracking\bin\Debug\netcoreapp3.1\CsvHelper.dll
+C:\Github\SEMV_MRO_Tracking\SEMV_MRO_Tracking\obj\Debug\netcoreapp3.1\SEMV_MRO_Tracking.csproj.CoreCompileInputs.cache
+C:\Github\SEMV_MRO_Tracking\SEMV_MRO_Tracking\obj\Debug\netcoreapp3.1\SEMV_MRO_Tracking.MvcApplicationPartsAssemblyInfo.cache
+C:\Github\SEMV_MRO_Tracking\SEMV_MRO_Tracking\obj\Debug\netcoreapp3.1\Razor\Views\Admin\ScanIn.cshtml.g.cs
+C:\Github\SEMV_MRO_Tracking\SEMV_MRO_Tracking\obj\Debug\netcoreapp3.1\Razor\Views\Admin\_HistoryPartnumber.cshtml.g.cs
+D:\SEMV_MRO_Tracking\SEMV_MRO_Tracking\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\SEMV_MRO_Tracking\SEMV_MRO_Tracking\bin\Debug\netcoreapp3.1\appsettings.json
+D:\SEMV_MRO_Tracking\SEMV_MRO_Tracking\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+D:\SEMV_MRO_Tracking\SEMV_MRO_Tracking\bin\Debug\netcoreapp3.1\SEMV_MRO_Tracking.exe
+D:\SEMV_MRO_Tracking\SEMV_MRO_Tracking\bin\Debug\netcoreapp3.1\SEMV_MRO_Tracking.deps.json
+D:\SEMV_MRO_Tracking\SEMV_MRO_Tracking\bin\Debug\netcoreapp3.1\SEMV_MRO_Tracking.runtimeconfig.json
+D:\SEMV_MRO_Tracking\SEMV_MRO_Tracking\bin\Debug\netcoreapp3.1\SEMV_MRO_Tracking.runtimeconfig.dev.json
+D:\SEMV_MRO_Tracking\SEMV_MRO_Tracking\bin\Debug\netcoreapp3.1\SEMV_MRO_Tracking.dll
+D:\SEMV_MRO_Tracking\SEMV_MRO_Tracking\bin\Debug\netcoreapp3.1\SEMV_MRO_Tracking.pdb
+D:\SEMV_MRO_Tracking\SEMV_MRO_Tracking\bin\Debug\netcoreapp3.1\SEMV_MRO_Tracking.Views.dll
+D:\SEMV_MRO_Tracking\SEMV_MRO_Tracking\bin\Debug\netcoreapp3.1\SEMV_MRO_Tracking.Views.pdb
+D:\SEMV_MRO_Tracking\SEMV_MRO_Tracking\bin\Debug\netcoreapp3.1\CsvHelper.dll
+D:\SEMV_MRO_Tracking\SEMV_MRO_Tracking\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+D:\SEMV_MRO_Tracking\SEMV_MRO_Tracking\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+D:\SEMV_MRO_Tracking\SEMV_MRO_Tracking\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+D:\SEMV_MRO_Tracking\SEMV_MRO_Tracking\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+D:\SEMV_MRO_Tracking\SEMV_MRO_Tracking\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\SEMV_MRO_Tracking\SEMV_MRO_Tracking\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\SEMV_MRO_Tracking\SEMV_MRO_Tracking\obj\Debug\netcoreapp3.1\SEMV_MRO_Tracking.csprojAssemblyReference.cache
+D:\SEMV_MRO_Tracking\SEMV_MRO_Tracking\obj\Debug\netcoreapp3.1\SEMV_MRO_Tracking.AssemblyInfoInputs.cache
+D:\SEMV_MRO_Tracking\SEMV_MRO_Tracking\obj\Debug\netcoreapp3.1\SEMV_MRO_Tracking.AssemblyInfo.cs
+D:\SEMV_MRO_Tracking\SEMV_MRO_Tracking\obj\Debug\netcoreapp3.1\SEMV_MRO_Tracking.csproj.CoreCompileInputs.cache
+D:\SEMV_MRO_Tracking\SEMV_MRO_Tracking\obj\Debug\netcoreapp3.1\SEMV_MRO_Tracking.MvcApplicationPartsAssemblyInfo.cache
+D:\SEMV_MRO_Tracking\SEMV_MRO_Tracking\obj\Debug\netcoreapp3.1\SEMV_MRO_Tracking.RazorAssemblyInfo.cache
+D:\SEMV_MRO_Tracking\SEMV_MRO_Tracking\obj\Debug\netcoreapp3.1\SEMV_MRO_Tracking.RazorAssemblyInfo.cs
+D:\SEMV_MRO_Tracking\SEMV_MRO_Tracking\obj\Debug\netcoreapp3.1\SEMV_MRO_Tracking.TagHelpers.input.cache
+D:\SEMV_MRO_Tracking\SEMV_MRO_Tracking\obj\Debug\netcoreapp3.1\SEMV_MRO_Tracking.TagHelpers.output.cache
+D:\SEMV_MRO_Tracking\SEMV_MRO_Tracking\obj\Debug\netcoreapp3.1\SEMV_MRO_Tracking.RazorCoreGenerate.cache
+D:\SEMV_MRO_Tracking\SEMV_MRO_Tracking\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Index.cshtml.g.cs
+D:\SEMV_MRO_Tracking\SEMV_MRO_Tracking\obj\Debug\netcoreapp3.1\Razor\Views\Admin\MaterialStock.cshtml.g.cs
+D:\SEMV_MRO_Tracking\SEMV_MRO_Tracking\obj\Debug\netcoreapp3.1\Razor\Views\Admin\ScanIn.cshtml.g.cs
+D:\SEMV_MRO_Tracking\SEMV_MRO_Tracking\obj\Debug\netcoreapp3.1\Razor\Views\Admin\TransactionHistory.cshtml.g.cs
+D:\SEMV_MRO_Tracking\SEMV_MRO_Tracking\obj\Debug\netcoreapp3.1\Razor\Views\Admin\_HistoryPartnumber.cshtml.g.cs
+D:\SEMV_MRO_Tracking\SEMV_MRO_Tracking\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+D:\SEMV_MRO_Tracking\SEMV_MRO_Tracking\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+D:\SEMV_MRO_Tracking\SEMV_MRO_Tracking\obj\Debug\netcoreapp3.1\Razor\Views\Login\Index.cshtml.g.cs
+D:\SEMV_MRO_Tracking\SEMV_MRO_Tracking\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+D:\SEMV_MRO_Tracking\SEMV_MRO_Tracking\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\SEMV_MRO_Tracking\SEMV_MRO_Tracking\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\SEMV_MRO_Tracking\SEMV_MRO_Tracking\obj\Debug\netcoreapp3.1\Razor\Views\User\Index.cshtml.g.cs
+D:\SEMV_MRO_Tracking\SEMV_MRO_Tracking\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+D:\SEMV_MRO_Tracking\SEMV_MRO_Tracking\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+D:\SEMV_MRO_Tracking\SEMV_MRO_Tracking\obj\Debug\netcoreapp3.1\SEMV_MRO_Tracking.RazorTargetAssemblyInfo.cache
+D:\SEMV_MRO_Tracking\SEMV_MRO_Tracking\obj\Debug\netcoreapp3.1\SEMV_MRO_Tracking.RazorTargetAssemblyInfo.cs
+D:\SEMV_MRO_Tracking\SEMV_MRO_Tracking\obj\Debug\netcoreapp3.1\SEMV_MRO_Tracking.Views.pdb
+D:\SEMV_MRO_Tracking\SEMV_MRO_Tracking\obj\Debug\netcoreapp3.1\SEMV_MRO_Tracking.csproj.CopyComplete
+D:\SEMV_MRO_Tracking\SEMV_MRO_Tracking\obj\Debug\netcoreapp3.1\staticwebassets\SEMV_MRO_Tracking.StaticWebAssets.Manifest.cache
+D:\SEMV_MRO_Tracking\SEMV_MRO_Tracking\obj\Debug\netcoreapp3.1\staticwebassets\SEMV_MRO_Tracking.StaticWebAssets.xml
+D:\SEMV_MRO_Tracking\SEMV_MRO_Tracking\obj\Debug\netcoreapp3.1\SEMV_MRO_Tracking.dll
+D:\SEMV_MRO_Tracking\SEMV_MRO_Tracking\obj\Debug\netcoreapp3.1\SEMV_MRO_Tracking.pdb
+D:\SEMV_MRO_Tracking\SEMV_MRO_Tracking\obj\Debug\netcoreapp3.1\SEMV_MRO_Tracking.genruntimeconfig.cache
+D:\SEMV_MRO_Tracking\SEMV_MRO_Tracking\obj\Debug\netcoreapp3.1\Razor\Views\User\MasterData.cshtml.g.cs

@@ -1,0 +1,155 @@
+Part_Number,Barcode,Unit,Material_Name,Material_Desc,Leadtime,Stock,Safety_Stock,Max_Stock,Total_Purchase,Price,Supplier_Name,Supplier_Email
+CH01,,Chai,Dung moi V824-D,Dung môi V824-D,7,59,99,200,20,0,HUYNH LONG,hung.duongquang@se.com
+CH02,,Chai,Muc V854-D,Muc V854-D,7,180,99,200,0,0,HUYNH LONG,hung.duongquang@se.com
+CH03,,Lit,cap dieu khien cao ap,Con 90,2,152,99,200,0,685000,DIEU HUY,hung.duongquang@se.com
+CH04,,chai,Dung moi 1006 chai 750ml,Dung moi 1006 chai 750ml/ Solvent ,3,60,99,200,60,950000,DIEU HUY,hung.duongquang@se.com
+CH05,,Cai,Duong inox,Duong inox,7,10,99,200,30,2000000,DIEU HUY,hung.duongquang@se.com
+CH06,8936095175731, Hop ,Keo 502/ Glue 502 ,Keo 502/ Glue 502 ,3,10,99,200,10,695000,DIEU HUY,hung.duongquang@se.com
+CH07,5010266454160,chai,Keo LOCTITE 454 - 20Gr,KEO LOCTITE 454 - 20Gr,5,10,99,200,10,1098098,NGAN ANH PHAT,hung.duongquang@se.com
+CH08,,thung,Mo bo BP & LS-EP2," Mo Bo BP, LS-EP2/ Grease ",3,10,99,200,10,11085000,DIEU HUY,hung.duongquang@se.com
+CH09,,Thung,Mo bo Downcorning,Mo Bo Downcorning (18kg),120,10,99,200,10,380000,TOAN TRE,hung.duongquang@se.com
+CH10,,Thung,Mo bo Rocol, Mo Bo Rocol/ Rocol Grease ,15,10,99,200,10,140000,TOAN TRE,hung.duongquang@se.com
+CH11,,chai,Muc in 1001 chai 750ml/ Printing Ink ,Muc in 1001 chai 750ml/ Printing Ink ,6,10,99,200,10,165000,TOAN TRE,hung.duongquang@se.com
+CH12,,cuon,Muc Ribbon Wax 100C(110mmx300m-FO),Muc Ribbon Wax 100C(110mmx300m-FO),5,10,99,200,10,95000,TOAN TRE,hung.duongquang@se.com
+CH13,,cuon,Muc Ribbon Wax 100C(130mmx300m-FO),Muc Ribbon Wax 100C(130mmx300m-FO),5,10,99,200,10,135000,TOAN TRE,hung.duongquang@se.com
+CH14,,Cuon,Muc Ribbon Wax 100C/100K (90mmx300m-FO),Muc Ribbon Wax 100C/100K (90mmx300m-FO),7,10,99,200,10,145000,TOAN TRE,hung.duongquang@se.com
+CH15,,Cuon,Muc Ribbon Wax Resin (110mmx100m-FO),Muc Ribbon Wax Resin (110mmx100m-FO),7,10,99,200,10,100000,TOAN TRE,hung.duongquang@se.com
+CH16,,chai,Nuoc rua 1005 chai 473ml,N??c r?a 1005 chai 473ml/ Solvent ,5,10,99,200,10,115000,TOAN TRE,hung.duongquang@se.com
+CH17,,Chai,Silicon,Silicon,5,10,99,200,10,65000,TOAN TRE,hung.duongquang@se.com
+MC01,,Cai,May khoan,May khoan,7,10,99,200,10,0,CHECK LAI,hung.duongquang@se.com
+MC02,,Cai,Khoan pin cam tay 10.8 V LI,Khoan pin cam tay 10.8 V LI,5,10,99,200,10,80000,TOAN TRE,hung.duongquang@se.com
+MC03,,Cai,May quan tem (110 x 175 x 100),May Quan Tem (110 x 175 x 100),7,10,99,200,10,165000,TOAN TRE,hung.duongquang@se.com
+MC04,,Cai,May thoi hoi nong 2000W,May thoi hoi nong 2000W,4,10,99,200,10,83000,TOAN TRE,hung.duongquang@se.com
+MC05,,Cai,Sung han,Sung han,15,10,99,200,10,83600,TOAN TRE,hung.duongquang@se.com
+MC06,,Cai,Sung hoi,Sung hoi,7,10,99,200,10,235000,TOAN TRE,hung.duongquang@se.com
+LB01,,cuon,Tem 18x6,Tem 18x6/ Label (Tem Trong co duc lo),7,10,99,200,10,255000,TOAN TRE,hung.duongquang@se.com
+LB02,,cuon,Tem 20x10,Tem 20x10/ Label,7,10,99,200,10,398000,TOAN TRE,hung.duongquang@se.com
+LB03,,cuon,Tem 23x14 (24 con tem/ layout) ,Tem 23x14 (24 con tem/ layout) ,7,10,99,200,10,198000,TOAN TRE,hung.duongquang@se.com
+LB04,,cuon,Tem 30x20/Tem,Tem 30x20/ Label,7,10,99,200,10,198000,TOAN TRE,hung.duongquang@se.com
+LB05,,cuon,Tem 32x28,Tem 32x28/ Label (loai 3 con tem),7,10,99,200,10,150000,TOAN TRE,hung.duongquang@se.com
+LB06,,cuon,Tem 47x75,Tem 47x75/ Label,7,10,99,200,10,110000,TOAN TRE,hung.duongquang@se.com
+LB07,,cuon,Tem 50x105,Tem 50x105/ Label (Logo Schneider),7,10,99,200,10,80,TOAN TRE,hung.duongquang@se.com
+LB08,,cuon,Tem 55X40,Tem 55X40 loi nho 1 con tem (Logo Schneider O Giua)/ Label,7,10,99,200,10,78000,DIEU HUY,hung.duongquang@se.com
+LB09,,cuon,Tem 70x112,Tem 70x112 loi nho (Logo SE Nam 1 Ben)/ Label ,7,10,99,200,10,215000,DIEU HUY,hung.duongquang@se.com
+LB10,,cuon,Tem 70x30,Tem 70x30/ Label (Logo Schneider nam 1 ben),7,10,99,200,10,94000,DIEU HUY,hung.duongquang@se.com
+LB11,,cuon,Tem 7x7,Tem 7x7/ Label,7,10,99,200,10,175000,TOAN TRE,hung.duongquang@se.com
+LB12,,cuon,Tem 80x50,Tem 80x50/ Label,7,10,99,200,10,265000,TOAN TRE,hung.duongquang@se.com
+LB13,,cuon,Tem Blank 115x35 Gloss - 115x35,Label Blank 115x35 Gloss - 115x35,7,10,99,200,10,265000,TOAN TRE,hung.duongquang@se.com
+LB14,,cuon,Tem Blank 18x6 Z-ult 5A -18x6(4),Label Blank 18x6 Z-ult 5A -18x6(4),7,10,99,200,10,2800,TOAN TRE,hung.duongquang@se.com
+LB15,,cuon,Tem Blank 34x15 Gloss - 34x15(2),Label Blank 34x15 Gloss - 34x15(2),7,10,99,200,10,3000000,DIEU HUY,hung.duongquang@se.com
+LB16,,cuon,Tem Blank 49x50 Gloss - 49 x50 (2),Label Blank 49x50 Gloss - 49 x50 (2),7,10,99,200,10,805000,DIEU HUY,hung.duongquang@se.com
+LB17,,cuon,Tem Blank 75x74 lazer A4 - 75x74,Label Blank 75x74 lazer A4 - 75x74,7,10,99,200,10,510000,TOAN TRE,hung.duongquang@se.com
+LB18,,cuon,Tem HCL (90x23),Tem HCL (90x23)/ Label HCL,7,10,99,200,10,67000,DIEU HUY,hung.duongquang@se.com
+LB19,,cuon,Tem IBLT70 (55x65),Tem IBLT70 (55x65)(LogoSchneiderNamGiua),7,10,99,200,10,19000,DIEU HUY,hung.duongquang@se.com
+LB20,,Cai,Tem M&R, Tem M&R/ M&R Label ,3,10,99,200,10,1000,TOAN TRE,hung.duongquang@se.com
+TO01,,Cai,Ao boc nhiet tay han,Ao boc nhiet tay han,7,10,99,200,10,51849,NGAN ANH PHAT,hung.duongquang@se.com
+TO02,,Cai,Ao lon Dau vit (13x38), Ao Lon Dau Vit/ Big Cover Screw Head (13x38) ,10,10,99,200,10,309588,NGAN ANH PHAT,hung.duongquang@se.com
+TO03,,Cai,Ao nho Dau vit (8x20), Ao Nho Dau Vit/ Small Cover Screw Head (8x20) ,10,10,99,200,10,190000,DIEU HUY,hung.duongquang@se.com
+TO04,,Bich,Bao Tay Hong nham,Bao Tay Hong Nham,8,10,99,200,10,90000,DIEU HUY,hung.duongquang@se.com
+TO05,,bich,Bao tay ngon loai lon (M18), Bao Tay Ngon Loai Lon (M18)/FingerGloves ,7,10,99,200,10,77000,DIEU HUY,hung.duongquang@se.com
+TO06,,bich,Bao tay ngon loai nho (M15), Bao Tay Ngon Loai Nho (M15)/FingerGloves ,7,10,99,200,10,77000,DIEU HUY,hung.duongquang@se.com
+TO07,,Doi,Bao Tay vai,Bao Tay Vai/ Gloves,5,10,99,200,10,77000,DIEU HUY,hung.duongquang@se.com
+TO08,,Cai,Cap dieu khien cao ap,Cap dieu khien cao ap,7,10,99,200,10,77000,DIEU HUY,hung.duongquang@se.com
+TO09,,Cai,Dau ban vit hex,Dau ban vit hex,7,10,99,200,10,125000,DIEU HUY,hung.duongquang@se.com
+TO10,,Cai,Dau cham dau,Dau cham dau,4,10,99,200,10,95000,KILEWS,hung.duongquang@se.com
+TO11,,Cai,Dau nhua ky hot rac,Dau Nhua Ky Hot Rac,5,10,99,200,10,145000,DIEU HUY,hung.duongquang@se.com
+TO12,,Cai,Dau noi,Dau noi,7,10,99,200,10,48000,DIEU HUY,hung.duongquang@se.com
+TO13,,Cai,Dau sung hoi,Dau sung hoi,7,10,99,200,10,220000,DIEU HUY,hung.duongquang@se.com
+TO14,,Cai,Day ket noi sung dien voi nguon,Day ket noi sung dien voi nguon,12,10,99,200,10,5000,DIEU HUY,hung.duongquang@se.com
+TO15,,Cai,Day ket noi sung dien voi nguon, Day ket noi sung dien voi nguon ,7,10,99,200,10,5000,DIEU HUY,hung.duongquang@se.com
+TO16,,m,Day kho F4,Day kho F4,7,10,99,200,10,58000,DIEU HUY,hung.duongquang@se.com
+TO17,,m,Day kho F6,Day kho F6,7,10,99,200,10,23000,DIEU HUY,hung.duongquang@se.com
+TO18,,cai,Day nguon, Day nguon ,10,10,99,200,10,33000,TOAN TRE,hung.duongquang@se.com
+TO19,,Bich,Day rut 200mm,Day rut 200mm,2,10,99,200,10,368000,DIEU HUY,hung.duongquang@se.com
+TO20,,Bich,Day thun (loai lon),Day Thun/ Elastic Cord (loai lon),5,10,99,200,10,115000,DIEU HUY,hung.duongquang@se.com
+TO21,,Cai,Dien tro A1506,Dien Tro A1506/ Resistor,5,10,99,200,10,115000,DIEU HUY,hung.duongquang@se.com
+TO22,,Cai,Dua dep,Dua dep,3,10,99,200,10,33000,DIEU HUY,hung.duongquang@se.com
+TO23,,Cai,Dua tron,Dua tron,7,10,99,200,10,175000,DIEU HUY,hung.duongquang@se.com
+TO24,,Cai,Giac cao ap,Giac cao ap,7,10,99,200,10,205000,DIEU HUY,hung.duongquang@se.com
+TO25,,Cai,Jig ga dau vit, Jig ga dau vit,7,10,99,200,10,66000,TOAN TRE,hung.duongquang@se.com
+TO26,,Cai,Khop noi dau han,Khop Noi Dau Han,3,10,99,200,10,33000,DIEU HUY,hung.duongquang@se.com
+TO27,,Cai,Ky hot rac Inox- Can dai,Ky Hot Rac INOX - Can Dai,5,10,99,200,10,490000,DIEU HUY,hung.duongquang@se.com
+TO28,,Cai,Luc giac 5,Luc giac 5,5,10,99,200,10,96000,DIEU HUY,hung.duongquang@se.com
+TO29,,Bo,Mang loc khi,Mang loc khi,7,10,99,200,10,135000,DIEU HUY,hung.duongquang@se.com
+TO30,,Cai,Mui han 2.4/ Sharping Weld,Mui han 2.4/ Sharping Weld,4,10,99,200,10,135000,DIEU HUY,hung.duongquang@se.com
+TO31,,Cai,Mui han cho Chameleon,Mui han cho Chameleon,4,10,99,200,10,62000,DIEU HUY,hung.duongquang@se.com
+TO32,,Cai,Mui han det D2.4mm,Mui han det D2.4mm/ Welding Head,4,10,99,200,10,34000,DIEU HUY,hung.duongquang@se.com
+TO33,,Cai,Mui khoan 6,Mui khoan 6,5,10,99,200,10,92000,DIEU HUY,hung.duongquang@se.com
+TO34,,Cai,Nhip/ Tweezer,Nhip/ Tweezer,3,10,99,200,10,45000,DIEU HUY,hung.duongquang@se.com
+TO35,,Cai,Oc han,Oc Han/ Welding Nut,3,10,99,200,10,485000,DIEU HUY,hung.duongquang@se.com
+TO36,,Cai,Ong lot ao vit,Ong lot ao vit,7,10,99,200,10,1580000,DIEU HUY,hung.duongquang@se.com
+TO37,,Cai,Rong roc KL-1200/ Spring balance,Rong roc KL-1200/ Spring balance,15,10,99,200,10,5975,SOVI,hung.duongquang@se.com
+TO38,,Cai,Tay han Hakko,Tay han Hakko,7,10,99,200,10,631176,NGAN ANH PHAT,hung.duongquang@se.com
+TO39,,Cai,Thung Carton CB310210210,Thung Carton CB310210210/ Carton ,6,10,99,200,10,75000,TOAN TRE,hung.duongquang@se.com
+TO40,,Cai,Tu be 19.958.9414,Tu be19.958.9414,7,10,99,200,10,575000,DIEU HUY,hung.duongquang@se.com
+TO41,,Kg,Tui Ziper 150x260mm,Tui Ziper 150x260mm,5,10,99,200,10,145000,DIEU HUY,hung.duongquang@se.com
+TO42,,cai,Vai nhiet,Vai nhiet,3,10,99,200,10,39000,DIEU HUY,hung.duongquang@se.com
+TO43,,Cai,Vit ban ton,Vit ban ton,7,10,99,200,10,33000,DIEU HUY,hung.duongquang@se.com
+TO44,,Cai,Vit dien,Vit dien,3,10,99,200,10,90000,DIEU HUY,hung.duongquang@se.com
+TO45,,Cai,Vit Do 3.2x75/ Red Bolt,Vit Do 3.2x75/ Red Bolt,3,10,99,200,10,18000,DIEU HUY,hung.duongquang@se.com
+TO46,,Cai,Vong deo chong tinh dien,Vong deo chong tinh dien,5,10,99,200,10,515000,DIEU HUY,hung.duongquang@se.com
+TO47,,Cai,Zac tivi,Zac tivi,5,10,99,200,10,155000,TOAN TRE,hung.duongquang@se.com
+STE01,,Cai,Giay vai,Giay vai,7,10,99,200,10,0,M-DRAGON,hung.duongquang@se.com
+STE02,,Cai,Ao thun,Ao thun,7,10,99,200,10,0,VUONG ANH DUONG,hung.duongquang@se.com
+STE03,,Cai,Tam nhua xanh cho thung rac,Tam nhua xanh cho thung rac,7,10,99,200,10,0,DIEU HUY,hung.duongquang@se.com
+STE04,,Cai,Am dun sieu toc,Am dun sieu toc,7,10,99,200,10,0,CHECK LAI,hung.duongquang@se.com
+STE05,,Cai,Ao y tuong,Ao y tuong,7,10,99,200,10,0,VUONG ANH DUONG,hung.duongquang@se.com
+STE06,,Cai,Ao mua,Ao mua,7,10,99,200,10,0,CHECK LAI,hung.duongquang@se.com
+STE07,,Cai,Balo y tuong,Balo y tuong,7,10,99,200,10,0,VUONG ANH DUONG,hung.duongquang@se.com
+STE08,,Cuon,Ribbon for SDX40 53MM 3910 Black TTR (813910080055BK),Ribbon for SDX40 53MM 3910 Black TTR (813910080055BK),7,10,99,200,10,0,CHECK LAI,hung.duongquang@se.com
+STE09,,Cai,Mu luoi trum dau,Mu luoi trum dau,7,10,99,200,10,0,CHECK LAI,hung.duongquang@se.com
+STE10,8935001800361,Hop,But bi,But bi,7,10,99,200,10,0,TOAN TRE,hung.duongquang@se.com
+STE11,,Hop,But long dau,But long dau,7,10,99,200,10,0,TOAN TRE,hung.duongquang@se.com
+STE12,8935001870395,Hop,But da quang,But da quang,7,10,99,200,10,0,TOAN TRE,hung.duongquang@se.com
+STE13,8935129200111,Cai,Thuoc,Thuoc,7,10,99,200,10,0,TOAN TRE,hung.duongquang@se.com
+STE14,6947902901094,Cai,Keo,Keo,7,10,99,200,10,0,TOAN TRE,hung.duongquang@se.com
+STE15,24977564000411,Hop,Ghim bam nho (Hop Nho)/ Large Staple,Ghim bam nho (Hop Nho)/ Large Staple,7,10,99,200,10,0,TOAN TRE,hung.duongquang@se.com
+STE16,6921917223488,Cai,Bia chinh ky,Bia chinh ky,7,10,99,200,10,0,TOAN TRE,hung.duongquang@se.com
+STE17,,Cai,Kep buom,Kep buom,7,10,99,200,10,0,TOAN TRE,hung.duongquang@se.com
+STE18,8936007454671,Cai,Bia cong,Bia cong,7,10,99,200,10,0,TOAN TRE,hung.duongquang@se.com
+STE19,,Cai,So tay (nho + lon),So tay (nho + lon),7,10,99,200,10,0,TOAN TRE,hung.duongquang@se.com
+STE20,,Cai,Giay note,Giay note,7,10,99,200,10,0,TOAN TRE,hung.duongquang@se.com
+STE21,,Cai,But xoa,But xoa,7,10,99,200,10,0,TOAN TRE,hung.duongquang@se.com
+STE22,,Cai,Do bam lo,Do bam lo,7,10,99,200,10,0,TOAN TRE,hung.duongquang@se.com
+STE23,4977564177058,Cai,Do bam ghim nho,Do bam ghim nho,7,10,99,200,10,0,TOAN TRE,hung.duongquang@se.com
+STE24,,Cai,Do go ghim,Do go ghim,7,10,99,200,10,0,TOAN TRE,hung.duongquang@se.com
+STE25,,Cai,Bia phan trang,Bia phan trang,7,10,99,200,10,0,TOAN TRE,hung.duongquang@se.com
+STE26,,Cai,Tap 96 trang,Tap 96 trang,7,10,99,200,10,0,TOAN TRE,hung.duongquang@se.com
+STE27,,Cai,Ke nhua 3 tang,Ke nhua 3 tang,7,10,99,200,10,0,TOAN TRE,hung.duongquang@se.com
+STE28,8888021206258,Cai,Pin tieu,Pin tieu,7,10,99,200,10,0,TOAN TRE,hung.duongquang@se.com
+STE29,48991389138814,Gram,Giay in A4,Giay in A4,7,10,99,200,10,0,TOAN TRE,hung.duongquang@se.com
+STE30,8852413450901,Gram,Giay in A3,Giay in A3,7,10,99,200,10,0,TOAN TRE,hung.duongquang@se.com
+STE31,,Gram,Giay cung,Giay cung,7,10,99,200,10,0,TOAN TRE,hung.duongquang@se.com
+STE32,,Cai,Hop dung but,Hop dung but,7,10,99,200,10,0,TOAN TRE,hung.duongquang@se.com
+STE33,,Cai,Dinh ghim,Dinh ghim,7,10,99,200,10,0,TOAN TRE,hung.duongquang@se.com
+STE34,,Cai,Tui dung ho so,Tui dung ho so,7,10,99,200,10,0,TOAN TRE,hung.duongquang@se.com
+STE35,,Cai,Phong bi Schneider,Phong bi Schneider,7,10,99,200,10,0,TOAN TRE,hung.duongquang@se.com
+STE36,,Cai,Giay ra xuong,Giay ra xuong,7,10,99,200,10,0,TOAN TRE,hung.duongquang@se.com
+STE37,,Cai,Phieu tam ung,Phieu tam ung,7,10,99,200,10,0,TOAN TRE,hung.duongquang@se.com
+STE38,,Cai,De cam but,De cam but,7,10,99,200,10,0,TOAN TRE,hung.duongquang@se.com
+STE39,2485204762554,Hop,Nhua ep PLASTIC A3 - 80 MIC,Nhua ep PLASTIC A3 - 80 MIC,7,10,99,200,10,0,TOAN TRE,hung.duongquang@se.com
+STE40,,Cai,Giay de nghi mang thiet bi vat tu ra ngoai,Giay de nghi mang thiet bi vat tu ra ngoai,7,10,99,200,10,0,TOAN TRE,hung.duongquang@se.com
+STE41,,Bich,Tam bong,Tam bong,7,10,99,200,10,0,TOAN TRE,hung.duongquang@se.com
+STE42,8936024062002,Hop,Ghim kep C62,Ghim kep C62,7,10,99,200,10,0,TOAN TRE,hung.duongquang@se.com
+STE43,,Hop,But xoa,But xoa,7,10,99,200,10,0,TOAN TRE,hung.duongquang@se.com
+STE44,8938501149336,Hop,Bao tay y te,Bao tay y te,7,10,99,200,10,0,CHECK LAI,hung.duongquang@se.com
+STE45,,Cuon,Bang in Tze-24118mm,Bang in Tze-241 18mm,7,10,99,200,10,8000,DIEU HUY,hung.duongquang@se.com
+STE46,,Cuon,Bang keo dan nen mau vang ESD,Bang Keo Dan Nen Mau Vang ESD,4,10,99,200,10,4500,TOAN TRE,hung.duongquang@se.com
+STE47,,cuon,Bang keo trong 2.4 cm,Bang Keo Trong 2.4Cm/ Tape,4,10,99,200,10,13000,TOAN TRE,hung.duongquang@se.com
+STE48,,cuon,Bang keo trong lon,Bang Keo Trong Lon/ Large Tape,4,10,99,200,10,4500,TOAN TRE,hung.duongquang@se.com
+STE49,,Cai,Bao dung the tay nghe,Bao Dung The Tay Nghe,3,10,99,200,10,1200,TOAN TRE,hung.duongquang@se.com
+STE50,,Cai,Bao the MR,Bao The M&R,4,10,99,200,10,225000,TOAN TRE,hung.duongquang@se.com
+STE51,,cuon,Barcode voi Schneider Logo 100x25,Barcode with Schneider Logo 100x25,7,10,99,200,10,198000,TOAN TRE,hung.duongquang@se.com
+STE52,,cuon,Barcode voi Schneider Logo 80x40,Barcode with Schneider Logo 80x40,7,10,99,200,10,22000,TOAN TRE,hung.duongquang@se.com
+STE53,,Kg,Bong gon,Bong Gon/ Cotton wool,5,10,99,200,10,165000,TOAN TRE,hung.duongquang@se.com
+STE54,,cuon,Decal dan 5Cm,Decal Mau Vang 5Cm/ Yellow Decal,6,10,99,200,10,75000,TOAN TRE,hung.duongquang@se.com
+STE55,,Cai,Do bam ghim lon,Do Bam Ghim Lon,3,10,99,200,10,33000,TOAN TRE,hung.duongquang@se.com
+STE56,,Cai,Do cat bang keo lon (Cat bang keo 6.0cm),Do Cat Bang Keo Lon/ Big Tape Cutter (Cat bang keo 6.0cm),6,10,99,200,10,29000,TOAN TRE,hung.duongquang@se.com
+STE57,,Cai,Dong ho bam gio/ Stop watch,Dong ho bam gio/ Stop watch,7,10,99,200,10,1670000,DIEU HUY,hung.duongquang@se.com
+STE58,,Cai,Dong ho do dien,Dong ho do dien/ VOM,7,10,99,200,10,295000,DIEU HUY,hung.duongquang@se.com
+STE59,4711734920408,Cai,Ghim Bam Lon (Hop nho),Ghim Bam Lon (Hop Nho)/ Large Staple,4,10,99,200,10,3500,TOAN TRE,hung.duongquang@se.com
+STE60,,kg,Gie lau,Gie Lau/ Rag,4,10,99,200,10,11000,TOAN TRE,hung.duongquang@se.com
+STE61,,Cai,Hop nhua, Hop nhua/ Plastic box ,3,10,99,200,10,17000,TOAN TRE,hung.duongquang@se.com
+STE62,,Cai,Kim cat nhua,Kim Cat Nhua / Cutting Pliers,5,10,99,200,10,118000,DIEU HUY,hung.duongquang@se.com
+STE63,,cuon,Ribbon 55mm ( dung cho tem 40 x 30mm),Ribbon 55mm ( dung cho tem 40 x 30mm),7,10,99,200,10,105000,TOAN TRE,hung.duongquang@se.com
+STE64,,Cai,Vo the Kanban/ Cover,Vo The Kanban/ Cover,7,10,99,200,10,1300,TOAN TRE,hung.duongquang@se.com

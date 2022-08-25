@@ -1,0 +1,43 @@
+﻿@model ViewModel
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{ }
+<h4 class="mt-3">Packing History</h4>
+<table id="transactionTable" class="table table-sm table-bordered table-striped" style="font-size: 8pt;width: 100%">
+    <thead>
+        <tr class="bg-success">
+            <th class="align-middle text-center">Purchase Number</th>
+            <th class="align-middle text-center">Part Number</th>
+            <th class="align-middle text-center">Quantity Req</th>
+            <th class="align-middle text-center">Request By</th>
+            <th class="align-middle text-center">Transaction Type</th>
+            <th class="align-middle text-center">Timestamp</th>
+        </tr>
+    </thead>
+    <tbody>
+        @{ if (Model.TransactionDetails != null)
+            {
+                foreach (var item in Model.TransactionDetails)
+                {
+                    <tr>
+                        <td class="align-middle text-center">@Html.DisplayFor(model => item.Order_ID)</td>
+                        <td class="align-middle text-center">@Html.DisplayFor(model => item.Part_Number)</td>
+                        <td class="align-middle text-center">@Html.DisplayFor(model => item.Quantity_Req)</td>
+                        <td class="align-middle text-center">@Html.DisplayFor(model => item.Request_By)</td>
+                        <td class="align-middle text-center">@Html.DisplayFor(model => item.Request_Type)</td>
+                        <td class="align-middle text-center">@Html.DisplayFor(model => item.Timestamp)</td>
+                    </tr>
+
+                }
+            }
+            else
+            {
+                <tr>
+                    <td colspan="6" class="align-middle">No Data to Display</td>
+                </tr>
+
+            }
+        }
+    </tbody>
+</table>
